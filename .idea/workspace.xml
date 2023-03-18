@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99e6ae7d-bb39-4c5a-ba93-ca4a9c43737d" name="Changes" comment="Initialize project using Create React App">
+    <list default="true" id="99e6ae7d-bb39-4c5a-ba93-ca4a9c43737d" name="Changes" comment="Передалали второй Input через useState">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +85,7 @@
       <updated>1679076723249</updated>
       <workItem from="1679076724594" duration="5829000" />
       <workItem from="1679122546069" duration="9061000" />
-      <workItem from="1679132938347" duration="287000" />
+      <workItem from="1679132938347" duration="1235000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize project using Create React App">
       <created>1679132180733</created>
@@ -102,7 +101,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679132192142</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Передалали второй Input через useState">
+      <created>1679133421776</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679133421776</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Передалали второй Input через useState">
+      <created>1679133919589</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679133919589</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +124,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="+" />
     <MESSAGE value="Initialize project using Create React App" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initialize project using Create React App" />
+    <MESSAGE value="Передалали второй Input через useState" />
+    <option name="LAST_COMMIT_MESSAGE" value="Передалали второй Input через useState" />
   </component>
 </project>
