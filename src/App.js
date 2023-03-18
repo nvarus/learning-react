@@ -18,7 +18,7 @@ const App = () => {
 		console.log(bodyInputFef.current.value)
 	}
 	
-	
+	// комментарий создан на ноутбуке
 	return (
 		<div className="App">
 			<form>
