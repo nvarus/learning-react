@@ -11,11 +11,14 @@ const App = () => {
 		{id: 3, title: 'Javascript 3', body: 'Description'},
 	]);
 	const [title, setTitle] = useState('');
-	const bodyInputFef = useRef();
+	const [body, setBody] = useState('');
 	const addNewPost = (e) => {
 		e.preventDefault()
-		console.log(title)
-		console.log(bodyInputFef.current.value)
+		const newPost = {
+			title,
+			body
+		}
+		console.log(newPost)
 	}
 	
 	// комментарий создан на ноутбуке
@@ -30,7 +33,8 @@ const App = () => {
 					placeholder="Название поста"/>
 				{/*Неуправляемый компонент*/}
 				<MyInput
-				ref={bodyInputFef}
+					value={body}
+					onChange={e => setBody(e.target.value)}
 					type="text"
 					placeholder="Описание поста"
 				/>
